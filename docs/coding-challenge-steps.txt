@@ -1,10 +1,10 @@
-CODING CHALLENGE - HELIO RIBEIRO – GUIDE – STEP-BY-STEP
+e-wetCODING CHALLENGE - HELIO RIBEIRO – GUIDE – STEP-BY-STEP
 
 1.	Enable APIs
 2.	gcloud auth list
-3.  gsutil mb -p ml6-helio-ribeiro-delivery -l EUROPE gs://challenge-helio-ribeiro-delivery-easy
-4.  gsutil mb -p ml6-helio-ribeiro-delivery -l EUROPE gs://challenge-helio-ribeiro-delivery-hard
-5.  gsutil mb -p ml6-helio-ribeiro-delivery -l EUROPE gs://challenge-helio-ribeiro-staging-temp
+3.  gsutil mb -p ml6-helio-ribeiro-delivery -l europe-west1 gs://challenge-helio-ribeiro-delivery-easy
+4.  gsutil mb -p ml6-helio-ribeiro-delivery -l europe-west1 gs://challenge-helio-ribeiro-delivery-hard
+5.  gsutil mb -p ml6-helio-ribeiro-delivery -l europe-west1 gs://challenge-helio-ribeiro-staging-temp
 6.	git clone https://github.com/helioribeiro/dataflow-coding-challenge-delivery.git
 7.	cd dataflow-coding-challenge-delivery
 8.  pip install -r requirements.txt
