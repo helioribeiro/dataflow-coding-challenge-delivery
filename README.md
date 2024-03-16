@@ -103,6 +103,9 @@ This test consists in providing 4 columns with queries from two tables, as well 
 ### 6.4. Running the ETL script via Dataflow
 Once the environment is set, just make sure you are at the folder dataflow-coding-challenge with all the libraries installed, then run 'python hard.py'
 
+### 6.5. (OPTIONAL) Run via Docker
+Instead of running the code directly via the .py file, you can also use docker commands to build and run a docker image.
+
 ## 7. Final remarks
 Overall, it was a pleasure to develop the code for this challenge and I am looking forward for our next conversations.
 

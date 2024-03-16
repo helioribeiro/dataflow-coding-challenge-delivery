@@ -1,15 +1,17 @@
 CODING CHALLENGE - HELIO RIBEIRO – GUIDE – STEP-BY-STEP
 
-1.	Enable APIs
-2.	gcloud auth list
+1.  Enable APIs
+2.  gcloud auth list
 3.  gsutil mb -p ml6-helio-ribeiro-delivery -l europe-west1 gs://challenge-helio-ribeiro-delivery-easy
 4.  gsutil mb -p ml6-helio-ribeiro-delivery -l europe-west1 gs://challenge-helio-ribeiro-delivery-hard
 5.  gsutil mb -p ml6-helio-ribeiro-delivery -l europe-west1 gs://challenge-helio-ribeiro-staging-temp
-6.	git clone https://github.com/helioribeiro/dataflow-coding-challenge-delivery.git
-7.	cd dataflow-coding-challenge-delivery
+6.  git clone https://github.com/helioribeiro/dataflow-coding-challenge-delivery.git
+7.  cd dataflow-coding-challenge-delivery
 8.  pip install -r requirements.txt
 9.  python easy.py
-10.  python hard.py
-11.  Verify files on Cloud Storage after Dataflow finishes the jobs.
+10a.    python hard.py
+10b.    (OPTIONAL) docker build -t hard-challenge .
+10c.    (OPTIONAL) docker run hard-challenge
+11. Verify files on Cloud Storage after Dataflow finishes the jobs.
 
 ---
