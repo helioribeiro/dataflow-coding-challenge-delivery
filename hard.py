@@ -92,6 +92,6 @@ with beam.Pipeline(options=beam_options) as pipeline:
     final_output = (
         sorted_data
         | 'Save output' >> WriteToCustomText(
-                'gs://challenge-helio-ribeiro-delivery-hard/output/Hard_Test2'
+                'gs://challenge-helio-ribeiro-delivery-hard/output/Hard_Test'
             )
         )
