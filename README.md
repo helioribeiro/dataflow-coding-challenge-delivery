@@ -6,7 +6,7 @@ Author: Helio Ribeiro<br>
 email: helioribeiropro@gmail.com<br><br>
 
 Built and tested on:
-- python 3.9
+- python 3.9.2
 - apache-beam[gcp] 2.50.0
 - geopy 1.18.0<br><br>
 
@@ -35,11 +35,14 @@ Once I knew what to expect in terms of SQL, I have prepared the environment in t
 Created the structure above. Some people organize the scripts inside another folder, but for this demo I decided to put it on the root directory.
 
 ## 4. Cloning Git Repo on Cloud Shell
-Inside Google's Cloud Shell --> git clone https://github.com/helioribeiro/dataflow-coding-challenge-delivery.git<br>
+Inside Google's Cloud Shell:<br>
+git clone https://github.com/helioribeiro/dataflow-coding-challenge-delivery.git<br>
 cd dataflow-coding-challenge-delivery
 
 ## 5. Easy Test
 This test consists in providing 3 columns with a query on a single table.
+
+python easy.py --job_name=easy-challenge-pipeline
 
 ### 5.1. Connecting to BigQuery
 query = 'SELECT start_station_id, end_station_id FROM `bigquery-public-data.london_bicycles.cycle_hire`'
@@ -63,6 +66,8 @@ Once the environment is set, just make sure you are at the folder dataflow-codin
 
 ## 6. Hard Test
 This test consists in providing 4 columns with queries from two tables, as well as calculations using the library geopy.
+
+python hard.py --job_name=hard-challenge-pipeline
 
 ### 6.1. Connecting to BigQuery
 -- Step 1: Query the data using SQL SELECT
