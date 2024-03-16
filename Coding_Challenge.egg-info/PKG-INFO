@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: Coding-Challenge
+Version: 1.0
+Summary: Coding Challenge
+License-File: LICENSE
+Requires-Dist: apache-beam[gcp]==2.50.0
+Requires-Dist: geopy==1.18.0
