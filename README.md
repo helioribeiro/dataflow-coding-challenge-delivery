@@ -7,7 +7,8 @@ email: helioribeiropro@gmail.com<br><br>
 
 Built and tested on:
 - python 3.9
-- apache-beam[gcp] 2.50.0<br><br>
+- apache-beam[gcp] 2.50.0
+- geopy 1.18.0<br><br>
 
 ## Directory Structure
 ```bash
@@ -34,8 +35,8 @@ Once I knew what to expect in terms of SQL, I have prepared the environment in t
 Created the structure above. Some people organize the scripts inside another folder, but for this demo I decided to put it on the root directory.
 
 ## 4. Cloning Git Repo on Cloud Shell
-Inside Google's Cloud Shell --> git clone https://github.com/helioribeiro/dataflow-coding-challenge.git
-cd dataflow-coding-challenge
+Inside Google's Cloud Shell --> git clone https://github.com/helioribeiro/dataflow-coding-challenge-delivery.git
+cd dataflow-coding-challenge-delivery
 
 ## 5. Easy Test
 This test consists in providing 3 columns with a query on a single table.
