@@ -35,7 +35,7 @@ Once I knew what to expect in terms of SQL, I have prepared the environment in t
 Created the structure above. Some people organize the scripts inside another folder, but for this demo I decided to put it on the root directory.
 
 ## 4. Cloning Git Repo on Cloud Shell
-Inside Google's Cloud Shell --> git clone https://github.com/helioribeiro/dataflow-coding-challenge-delivery.git
+Inside Google's Cloud Shell --> git clone https://github.com/helioribeiro/dataflow-coding-challenge-delivery.git<br>
 cd dataflow-coding-challenge-delivery
 
 ## 5. Easy Test
